@@ -1,0 +1,4 @@
+dataset: iris
+outlier_n: 50
+plot_x: sepal length (cm)
+plot_y: petal length (cm)

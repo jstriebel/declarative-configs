@@ -1,0 +1,4 @@
+dataset: linnerud
+outlier_n: 10
+plot_x: Chins
+plot_y: Jumps

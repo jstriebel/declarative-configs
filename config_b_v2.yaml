@@ -1,0 +1,7 @@
+version: 2
+dataset: linnerud
+outlier_n: 10
+plot:
+  kind: "heatmap"
+  x: Chins
+  y: Situps
