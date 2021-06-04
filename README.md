@@ -6,6 +6,10 @@ Material for my talk at the [PyCon US 2021](https://us.pycon.org/2021/schedule/p
 * [Slides on Speaker Deck](https://speakerdeck.com/jstriebel/declarative-configs-for-maintainable-reproducible-code)
 * [Code Demo as Interactive Jupyter Notebooks on binder](https://mybinder.org/v2/gh/jstriebel/declarative-configs/HEAD)
 
+**[Link to Youtube Video](https://www.youtube.com/watch?v=omhJrT90lXU):**
+
+[![Youtube Link](https://img.youtube.com/vi/omhJrT90lXU/0.jpg)](https://www.youtube.com/watch?v=omhJrT90lXU)
+
 ## Description
 
 Wondering how to keep your application config from getting outdated? Looking for a way to future-proof it in a backwards-compatible manner, keeping previous versions reproducible? Join this talk, we’ll share how declarative configs can be leveraged to make your code maintainable and reproducible at the same time.
