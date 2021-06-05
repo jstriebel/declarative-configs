@@ -4,7 +4,8 @@
 
 Material for my talk at the [PyCon US 2021](https://us.pycon.org/2021/schedule/presentation/55/):
 * [Slides on Speaker Deck](https://speakerdeck.com/jstriebel/declarative-configs-for-maintainable-reproducible-code)
-* [Code Demo as Interactive Jupyter Notebooks on binder](https://mybinder.org/v2/gh/jstriebel/declarative-configs/HEAD)
+* [Original Interactive Jupyter Notebooks from the Talk on Binder](https://mybinder.org/v2/gh/jstriebel/declarative-configs/9d7e86d7fed93ae5a92ee4007c87fd1e994d9cb8)
+* [Updated Code Demo as Interactive Jupyter Notebooks on Binder](https://mybinder.org/v2/gh/jstriebel/declarative-configs/HEAD)
 
 **[Link to Youtube Video](https://www.youtube.com/watch?v=omhJrT90lXU):**
 
