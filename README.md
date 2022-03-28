@@ -1,21 +1,24 @@
 # Declarative Configs for Maintainable Reproducible Code
 
-<img src="https://2022.pycon.de/static/media/PyConDE_PyDataBer_circle_trans_500.png" width="150" height="150">
+![](https://us.pycon.org/2021/static/images/wide-banner-light.bde0bd93b23b.png)
 
-Material for my talk at the [PyConDE & PyData Berlin 2022](https://2022.pycon.de/program/VYS8XY/):
+Material for my talk at the [PyCon US 2021](https://us.pycon.org/2021/schedule/presentation/55/):
+* [Slides on Speaker Deck](https://speakerdeck.com/jstriebel/declarative-configs-for-maintainable-reproducible-code)
+* [Original Interactive Jupyter Notebooks from the Talk on Binder](https://mybinder.org/v2/gh/jstriebel/declarative-configs/9d7e86d7fed93ae5a92ee4007c87fd1e994d9cb8)
+* [Updated Code Demo as Interactive Jupyter Notebooks on Binder](https://mybinder.org/v2/gh/jstriebel/declarative-configs/HEAD)
+
+**[Link to Youtube Video](https://www.youtube.com/watch?v=omhJrT90lXU):**
+
+[![Youtube Link](https://img.youtube.com/vi/omhJrT90lXU/0.jpg)](https://www.youtube.com/watch?v=omhJrT90lXU)
 
 ## Description
 
-Your data analysis pipeline works. ***Nice.***<br/>
-Could it be faster? ***Probably.***<br/>
-Do you need to parallelize? ***Not yet.***
+Wondering how to keep your application config from getting outdated? Looking for a way to future-proof it in a backwards-compatible manner, keeping previous versions reproducible? Join this talk, we’ll share how declarative configs can be leveraged to make your code maintainable and reproducible at the same time.
 
-We'll go through optimization steps that **boost the performance of your data analysis pipeline on a single core**, reducing time & costs. This walkthrough shows tools and strategies to identify and mitigate bottlenecks, and demonstrate them in an example. The 5 steps cover:
+Therefore, an overview across the application config landscape is given – from inputs as cli-args, env-vars, and config-files, to their representations in code, covering serialization & deserialization, type-safety with config-schemas and evolutions. We’ll recommend cherries to pick for a maintainable and expressive declarative config system.
 
-* Identifying bottlenecks: profiling memory, IO & cpu
-* Efficient IO
-* Memory optimizations
-* Vector-optimizations
-* Jit-ing using numba
 
-This talk is suited for data scientists on a beginner and intermediate level, typically working with a numpy/scipy/… stack or similar. The talk gives strategies & concrete suggestions how to speed up an existing analysis pipeline, which is demonstrated practically on an example, showing the gained speed & memory improvements of each step.
+## Links
+
+* [webKnossos](https://webknossos.org)
+* [Comparison of Attrs, Dataclasses & Pydantic](https://stefan.sofa-rockers.org/2020/05/29/attrs-dataclasses-pydantic)
